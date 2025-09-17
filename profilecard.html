@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh; 
+      display: flex;
+      justify-content: center;
+      align-items: center;     
+      background-color: #f3f3f3;
+      font-family: Arial, sans-serif;
+    }
+    
+
+    .card {
+      width: 300px;
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+      text-align: center;
+      padding: 20px;
+    }
+
+    .card img {
+      width: 200px;
+      height: 200px;
+      border-radius: 150%; 
+      object-fit: cover;
+      margin-top: 15px;
+    }
+
+    .card h1 {
+      margin: 0; 
+      font-size: 24px;
+      color: #333;
+    }
+
+    .card p {
+      color: #555;
+      margin-top: 10px;
+    }
+
+    .social-links {
+      margin-top: 15px;
+      display: flex;
+      justify-content: center; 
+      gap: 15px; 
+    }
+
+    .social-links a {
+      padding: 8px 14px;
+      border-radius: 8px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .social-links a.github {
+      background: #28da40;
+    }
+
+    .social-links a.linkedin {
+      background: #1dc64f;
+    }
+
+    .social-links a:hover {
+      opacity: 0.8;
+      cursor: pointer;
+      color: cornflowerblue;
+      background-color: hotpink;
+    }
+   .card h2 {
+  color: #340ce8; 
+  margin: 10px 0 5px;
+  transition: color 0.3s ease;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.3); 
+
+.card h2:hover {
+  color: #2a9d8f;
+  cursor: pointer;
+  text-shadow: 3px 3px 8px rgba(0,0,0,0.5); 
+}
+.card p{
+    color: rgb(240, 71, 71);
+}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Profile Card</h1>
+    <img src="/html/tasks/image/mickey.jpeg" alt="this is me">
+    <h2>Mounika Namana</h2>
+    <p>Computer Science Student</p>
+    <article>I am an aspiring software student, passionate about java full stack development and problem-solving. Currently learning Java Full Stack and DSA to build real-world projects and prepare for Job opportunities</article>
+    <div class="social-links">
+      <a href="https://github.com/Mounika-Namana" target="_blank" class="github">GitHub</a>
+      <a href="https://linkedin.com/in/Mounika Namana" target="_blank" class="linkedin">LinkedIn</a>
+    </div>
+  </div>
+</body>
+</html>
